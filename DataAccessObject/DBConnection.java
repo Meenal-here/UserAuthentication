@@ -14,7 +14,7 @@ public class DBConnection {
             if(conn == null)
             {
                 Class.forName("com.mysql.cj.jdbc.Driver");          //Class is a class
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/STUDENT_LOGIN_DATABASE","root","Your-Database-Password-Here");
+                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/STUDENT_LOGIN_DATABASE","root","Your-database-password"); //Connection is an interface
             }
             
         }
